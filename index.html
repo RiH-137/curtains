@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signodes Launch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Video Section -->
+    <div id="video-container">
+        <video id="launch-video" autoplay muted>
+            <source src="curtains.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Launching Text and Physical Lever -->
+    <div id="launch-container" class="hidden">
+        <h1>Launching Signodes Official Website</h1>
+        <div id="lever-container">
+            <div id="lever" draggable="true">
+                <div class="lever-handle"></div>
+                <div class="lever-base"></div>
+            </div>
+        </div>
+        <p>Drag the lever down to continue...</p>
+    </div>
+
+    <!-- Countdown -->
+    <div id="countdown-container" class="hidden">
+        <h1 id="countdown"></h1>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
